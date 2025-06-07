@@ -36,4 +36,7 @@ npm test
    vercel --prod
    ```
 
+The repository includes a `vercel.json` configuration file that tells Vercel to
+build the project using `package.json`.
+
 The app is hosted at [https://github.com/shiqi-ong/cm-quiz](https://github.com/shiqi-ong/cm-quiz) and deployed to Vercel.
