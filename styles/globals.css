@@ -1,8 +1,7 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-button {
-  margin-top: 10px;
+body {
+  @apply bg-gray-50 text-gray-800 font-sans p-4;
 }

@@ -21,6 +21,12 @@ Run the Jest test suite with:
 npm test
 ```
 
+## Styling
+
+This project uses **Tailwind CSS** for a modern look and feel. Global styles are
+defined in `styles/globals.css` and Tailwind is configured via
+`tailwind.config.js`.
+
 ## Deployment to Vercel
 
 1. Install the Vercel CLI if you do not already have it:
