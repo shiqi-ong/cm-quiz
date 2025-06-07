@@ -1,20 +1,25 @@
 # cm-quiz
 
-This repository will host a Next.js quiz application about cloud modernization. The quiz is intended to generate leads for a B2B website. If a user scores 80% or higher, they will see a message about winning **FREE swag from moderncloud.io** and a form to collect their contact information.
+This repository hosts a Next.js quiz application about cloud modernization. The quiz generates leads for a B2B website. If a user scores 80% or higher, they will see a message about winning **FREE swag from moderncloud.io** and a form to collect their contact information.
 
 ## Getting Started
 
-1. Ensure you have Node.js installed.
-2. Scaffold the application using **create-next-app**:
+1. Install dependencies:
    ```bash
-   npx create-next-app@latest --typescript
+   npm install
    ```
-3. Navigate into the created directory and run the development server:
+2. Run the development server:
    ```bash
-   cd cm-quiz
    npm run dev
    ```
-4. Visit `http://localhost:3000` to view the app locally.
+3. Visit `http://localhost:3000` to view the app locally.
+
+## Testing
+
+Run the Jest test suite with:
+```bash
+npm test
+```
 
 ## Deployment to Vercel
 
@@ -31,5 +36,4 @@ This repository will host a Next.js quiz application about cloud modernization. 
    vercel --prod
    ```
 
-The app will be hosted at [https://github.com/shiqi-ong/cm-quiz](https://github.com/shiqi-ong/cm-quiz) and deployed to Vercel.
-
+The app is hosted at [https://github.com/shiqi-ong/cm-quiz](https://github.com/shiqi-ong/cm-quiz) and deployed to Vercel.
